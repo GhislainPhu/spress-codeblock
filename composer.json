@@ -1,0 +1,31 @@
+{
+    "name": "ghislainphu/spress-codeblock",
+    "type": "spress-plugin",
+    "description": "Add codeblock Twig function to Spress.",
+    "keywords": [
+        "spress",
+        "plugin",
+        "pygments",
+        "syntax",
+        "highlight"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ghislain PHU",
+            "email": "contact@ghislainphu.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GhislainPhu\\Spress\\Plugin\\Codeblock\\": "src/"
+        }
+    },
+    "require": {
+        "spress/spress-installer": "2.0.*",
+        "ramsey/twig-codeblock": "^1.0"
+    },
+    "extra": {
+        "spress_class": "GhislainPhu\\Spress\\Plugin\\Codeblock\\SpressCodeblock"
+    }
+}
